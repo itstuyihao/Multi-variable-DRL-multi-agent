@@ -1,4 +1,4 @@
-# M2I-CWO: Multi-agent DRL for IEEE 802.11 CW Optimization
+# Multi-Variable, Multi-Agent DRL Model for CW Optimization
 
 ## Overview
 Based on my [prior work](https://github.com/itstuyihao/Multi-variable-DRL-single-agent), this repo extends a single-agent framework to a multi-agent system, and the work is presented in [“A comprehensive multi-agent deep reinforcement learning framework with adaptive interaction strategies for contention window optimization in IEEE 802.11 Wireless LANs,”](https://www.sciencedirect.com/science/article/pii/S2405959525000104), where each station is a DRL agent that learns the optimal CW setting. The goal is to keep collision rates low while boosting throughput and maintaining fairness and latency. The environment is simplified (no full 802.11 PHY, no path loss) and focuses on demonstrating the adaptive backoff logic rather than standard-compliant performance.
